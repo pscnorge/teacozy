@@ -114,9 +114,10 @@ main div {
   background: black;
   width: 300px;
   margin: 15px 20px;
+  padding-top: 20px;
 }
-.loc h4 {
-  padding: 0;
+.loc h3 {
+  margin: 0;
 }
 /* Footer */
 footer #contact {
