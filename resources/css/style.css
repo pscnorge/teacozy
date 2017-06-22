@@ -118,3 +118,19 @@ main div {
   padding: 0;
 }
 /* Footer */
+footer #contact {
+  display: flex;
+  min-height: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer #contact a {
+  color: white;
+  text-decoration: none;
+}
+footer #copyright {
+  text-align: left;
+  font-size: 14px;
+  padding-left: 20px;
+}
