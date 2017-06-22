@@ -36,3 +36,10 @@ header nav a {
   text-decoration: underline;
   color: seashell;
 }
+/* Main layout */
+main {
+  padding-top: 69px;
+}
+
+
+/* Footer */
