@@ -61,11 +61,37 @@ main div {
   padding: 10px;
 }
 /* Featured section */
-#featured {
-  flex-basis: 1000px;
-}
-#featured ul {
+#featitems {
+  margin-top: 20px;
+  max-width: 1000px;
   display: flex;
-  list-style: none;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.special {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding-top: 210px;
+  margin: 10px 15px;
+  width: 300px;
+  background-position: center top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.special.s1 {
+  background-image: url("../images/img-s1.jpg");
+}
+.special.s2 {
+  background-image: url("../images/img-s2.jpg");
+}
+.special.s3 {
+  background-image: url("../images/img-s3.jpg");
+}
+.special.s4 {
+  background-image: url("../images/img-s4.jpg");
+}
+.special.s5 {
+  background-image: url("../images/img-s5.jpg");
 }
 /* Footer */
