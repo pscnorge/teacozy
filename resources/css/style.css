@@ -14,9 +14,25 @@ main {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
-
+  padding: 0 10px;
+}
+header img {
+  height: 50px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  padding-right: 10px;
+}
+header nav li {
+  padding: 0 10px;
+}
+header nav a {
+  text-decoration: underline;
+  color: seashell;
 }
