@@ -4,7 +4,19 @@ body {
   color: seashell;
   background-color: black;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 main {
   opacity: 0.9;
+}
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+
 }
