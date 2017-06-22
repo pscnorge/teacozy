@@ -94,4 +94,27 @@ main div {
 .special.s5 {
   background-image: url("../images/img-s5.jpg");
 }
+/*  Locations section */
+#locations {
+  background: url("../images/img-locations-background.jpg") center no-repeat;
+  min-height: 500px;
+  width: 100%;
+}
+#locations h2 {
+  margin: 0;
+}
+#loclist {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0;
+}
+.loc {
+  background: black;
+  width: 300px;
+  margin: 15px 20px;
+}
+.loc h4 {
+  padding: 0;
+}
 /* Footer */
