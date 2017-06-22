@@ -51,14 +51,14 @@ main div {
 /* Mission section */
 #mission {
   height: 700px;
-  flex-basis: 1200px;
   background: url("../images/img-mission-background.jpg") center no-repeat;
 }
 #mission h2, h4 {
   background: black;
   width: 100%;
+  max-width: 1200px;
   margin: 0;
-  padding: 10px;
+  padding: 10px 0;
 }
 /* Featured section */
 #featitems {
