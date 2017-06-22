@@ -7,9 +7,6 @@ body {
   margin: 0;
   padding: 0;
 }
-main {
-  opacity: 0.9;
-}
 /* Header */
 header {
   display: flex;
@@ -20,6 +17,8 @@ header {
   width: 100%;
   border-bottom: 1px solid seashell;
   padding: 0 10px;
+  background: black;
+  z-index: 5;
 }
 header img {
   height: 50px;
@@ -36,10 +35,20 @@ header nav a {
   text-decoration: underline;
   color: seashell;
 }
-/* Main layout */
+/* Main content */
 main {
-  padding-top: 69px;
+  padding-top: 70px;
+  opacity: 0.9;
 }
-
-
+main div {
+  display: flex;
+}
+/* Mission section */
+#mission {
+  height: 700px;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/img-mission-background.jpg") center no-repeat;
+}
 /* Footer */
