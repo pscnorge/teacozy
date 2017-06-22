@@ -112,6 +112,7 @@ main div {
 }
 .loc {
   background: black;
+  opacity: 1;
   width: 300px;
   margin: 15px 20px;
   padding-top: 20px;
